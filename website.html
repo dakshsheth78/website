@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Website</title>
+</head>
+<style>
+    .main1 {
+        font-size: larger;
+        display: flex;
+        justify-content: space-around;
+        margin: 50px auto;
+    }
+
+    .text2 {
+        text-align: center;
+    }
+
+    .box {
+        border: 1px solid black;
+        text-align: center;
+        height: 200px;
+        width: 300px;
+    }
+
+    .grid {
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+        grid-template-columns: auto auto auto;
+    }
+
+    .last {
+        display: flex;
+        list-style: none;
+        padding: 30px;
+    }
+
+    .li1 {
+        padding-left: 50px;
+    }
+
+    .lastmain {
+        display: flex;
+    }
+
+    .last {
+        font-size: larger;
+    }
+
+    .lastest {
+        padding-left: 200px;
+        padding-top: 100px;
+    }
+
+    .hub {
+        height: 400px;
+        width: 80%;
+        margin: 0 auto;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .s1 {
+        height: 20px;
+        width: 250px;
+    }
+
+    .img {
+        display: flex;
+    }
+
+    .i1 {
+        padding-left: 170px;
+    }
+
+    .para1 {
+        align-self: flex-end;
+    }
+
+
+    .icon1 {
+        cursor: pointer;
+    }
+
+    .sub-header {
+        background-color: rgba(128, 128, 128, 0.225);
+        color: blue;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    li {
+        padding: 0 22px;
+        cursor: pointer;
+    }
+
+    li:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .main2 {
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0;
+    }
+
+    .para2 {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    * {
+        margin: 0;
+    }
+
+    .banner {
+        height: 50px;
+    }
+
+    .hover {
+        position: relative;
+    }
+
+    .hover:hover .content {
+        display: block;
+    }
+</style>
+
+<body>
+    <div class="sub-header">
+        <div class="icon1">
+            <a><i class="fa-solid fa-arrow-right"></i> Hire Up</a>
+        </div>
+        <div class="hover">
+            <li>Home</li>
+            <div class="content">
+            </div>
+        </div>
+        <div class="hover">
+            <li>Company</li>
+            <div class="content">
+            </div>
+        </div>
+        <div class="hover">
+            <li>Browser</li>
+            <div class="content">
+            </div>
+        </div>
+        <div class="hover">
+            <li>Blog</li>
+            <div class="content">
+            </div>
+        </div>
+        <div class="banner"></div>
+        <button>Login In</button>
+    </div>
+
+
+    <div class="main1">
+        <div class="text1">
+            <p><span style="color: blue;">NEW</span> Stay connected to upcoming jobs</p>
+            <br>
+            <h1>Find the most <br>exciting jobs in tech</h1>
+
+        </div>
+        <div class="para1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi rhoncus, pharetra leo et.<br> <span
+                    style="color: blue;">Sign in</span> or <span style="color: blue;">sign</span> upto get started</p>
+        </div>
+    </div>
+
+
+    <div class="Search">
+        <input class="s1" type="text" placeholder="Search Here" name="Search">
+        <button class="sb">
+            <i><i class="fa-solid fa-magnifying-glass"></i></i>
+        </button>
+    </div>
+
+    <br>
+
+    <div class="hub">
+        <img src="../hub.png" alt="">
+    </div>
+    <br>
+
+    <div class="img">
+        <img class="i1" src="../amazon.svg" alt="Amazon">
+        <img class="i1" src="../dropbox.svg" alt="Dropbox">
+        <img class="i1" src="../hubspot.svg" alt="Hubspot">
+        <img class="i1" src="../opentable.svg" alt="Opentable">
+        <img class="i1" src="../shopify.svg" alt="Shopify">
+    </div>
+    <br>
+    <br>
+
+    <div class="grid">
+        <div class="box">Frontend Developer</div>
+        <div class="box">Backend Developer</div>
+        <div class="box">Scrum Master</div>
+        <div class="box">Lead Technical Architect</div>
+        <div class="box"> Digital Media Strategist</div>
+        <div class="box">Systems Administrator</div>
+
+    </div>
+    <br>
+    <br>
+    <div style="background-color: darkgray;" main2">
+        <div class="text2">
+            <h1><span style="color: maroon;">See what users</span> <span style="color: darkblue;"> about <br> our job
+                    platform</span> </span></h1>
+        </div>
+
+        <br>
+        <div style="background-color: darkgray;" class="para2">
+            <div>
+                <p>"~ Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Tempore facere quaerat optio a
+                    eligendi dolorem, dolores<br> accusamus praesentium eius officia placeat vitae impedit."</p>
+                <br>
+                <h3>
+                    David Sinclair - <span style="color: darkblue;">Senior Frontend Developer</h3></span>
+            </div>
+            <div class="k1">
+                <img style="height: 300px;" src="../karyo.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+
+
+    </div>
+
+    <div class="lastmain">
+        <div class="last">
+            <div class="li1">
+                <li style="color: gray;">pages</li><br>
+                <li>home</li><br>
+                <li>home v2</li><br>
+                <li>about</li><br>
+                <li>pricing</li><br>
+                <li>jobs</li><br>
+                <li>post a job</li><br>
+            </div>
+            <div class="li1">
+                <li style="color: gray;">account</li><br>
+                <li>sign in</li><br>
+                <li>sign up</li><br>
+                <li>reset password</li><br>
+                <li>user account</li><br>
+            </div>
+            <div class="li1">
+                <li style="color: gray;">templet</li><br>
+                <li>style grid</li><br>
+                <li>changelog</li><br>
+            </div>
+
+        </div>
+
+
+        <div class="lastest">
+            <p style="color: rgb(48, 47, 47); word-spacing: 2px;">SIGN UP TO OUR NEWSLETTER</p><br><br>
+            <input class="ta" type="text" placeholder="Email Address...." name="search" maxlength="250px">
+            <button style="background-color: blue; size: 50px; padding: 20px;">
+                get started
+            </button>
+        </div>
+
+    </div>
+</body>
+
+</html>
